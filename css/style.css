@@ -246,24 +246,25 @@ header {
     width: 32%;
 }
 
-
-
 .feature-title h2 {
     padding-top: 60px;
 }
+
 .feature-detail {
     width: 40%;
 }
-.li-feature h3{
-font-size: 20px;
-font-weight: 700;
-padding-bottom: 35px;
+
+.li-feature h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 35px;
 }
 
-.big-icon{
+.big-icon {
     padding-right: 45px;
 }
-.li-feature p{
+
+.li-feature p {
     padding-left: 108px;
     margin-bottom: 60px;
 }
