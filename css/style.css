@@ -198,25 +198,72 @@ header {
     color: #000;
     transition: 0.3s;
 }
-.cta{
+
+.cta {
     margin-top: 190px;
     text-align: center;
     color: #ffffff;
 }
-.cta h1{
+
+.cta h1 {
     font-size: 65px;
     font-weight: 400;
 }
-.cta h2{
+
+.cta h2 {
     font-size: 33px;
     font-weight: 300;
     margin-top: 35px;
     margin-bottom: 90px;
 }
+
 .btn-more {
     font-size: 18px;
     color: #ffffff;
     border: solid #ffffff 1px;
     padding: 20px 30px;
     border-radius: 55px;
+    transition: 0.3s;
+}
+
+.btn-more:hover {
+    padding: 25px 35px;
+    transition: 0.3s;
+}
+
+/* feture section */
+#feature-section {
+    padding-top: 128px;
+    padding-bottom: 140px;
+    height: 100vh;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 127px;
+    color: #e1e1e1;
+    text-transform: uppercase;
+    width: 32%;
+}
+
+
+
+.feature-title h2 {
+    padding-top: 60px;
+}
+.feature-detail {
+    width: 40%;
+}
+.li-feature h3{
+font-size: 20px;
+font-weight: 700;
+padding-bottom: 35px;
+}
+
+.big-icon{
+    padding-right: 45px;
+}
+.li-feature p{
+    padding-left: 108px;
+    margin-bottom: 60px;
 }
