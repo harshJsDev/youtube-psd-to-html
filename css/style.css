@@ -1,3 +1,7 @@
+/* font  */
+/* font-family: 'Lato', sans-serif; */
+
+/* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,12 +138,38 @@ table {
     border-spacing: 0;
 }
 
-/* General rules */
+/* CSS RESET END */
+
+/* helper class */
+.m0 {
+    margin: 0;
+}
+
+.right-align {
+    float: right;
+}
+
+.left-align {
+    float: left;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.clearfix:after {
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
 body {
-    color: #000000;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
     font-weight: 400;
+    font-size: 18px;
 }
 
 a {
@@ -147,124 +177,179 @@ a {
     color: #000;
 }
 
-/* helper classes */
-.left-align {
-    float: left;
-}
+/* HERO SECTION  */
 
-.right-align {
-    float: right;
-}
-
-.clearfix:after {
-    content: " ";
-    display: block;
-    visibility: hidden;
-    height: 0;
-    clear: both;
-}
-
-#hero-section {
+#hero {
     background-image: url("../img/hero-bg.png");
-    height: 100vh;
+    color: #fff;
+    background-position: center;
     background-size: cover;
+    height: 745px;
 
-}
-
-.container {
-    min-width: 1165px;
-    padding: 0 20px;
-    margin: 0 auto;
 }
 
 header {
     padding-top: 60px;
 }
 
-.navbar ul li {
-    display: inline-block
+.container {
+    max-width: 1163px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.navbar ul li a {
+
+.container nav ul li {
+    display: inline;
+}
+
+.container nav ul li a {
+    color: #fff;
     font-size: 18px;
-    color: #ffffff;
-    margin-right: 55px;
+    line-height: 13px;
+    margin-right: 56px;
     text-transform: uppercase;
     transition: 0.3s;
 }
 
-.navbar ul li a:hover {
+.container nav ul li a:hover {
     font-weight: 700;
     color: #000;
     transition: 0.3s;
 }
 
 .cta {
-    margin-top: 190px;
+    margin-top: 177px;
     text-align: center;
-    color: #ffffff;
 }
 
 .cta h1 {
     font-size: 65px;
-    font-weight: 400;
+    line-height: 70px;
+
 }
 
 .cta h2 {
+    margin: 30px 0 90px 0;
     font-size: 33px;
-    font-weight: 300;
-    margin-top: 35px;
-    margin-bottom: 90px;
 }
 
 .btn-more {
+    color: #fff;
+    padding: 20px 54px;
+    border: 1px solid #ffffff;
+    border-radius: 57px;
     font-size: 18px;
-    color: #ffffff;
-    border: solid #ffffff 1px;
-    padding: 20px 30px;
-    border-radius: 55px;
     transition: 0.3s;
 }
 
 .btn-more:hover {
-    padding: 25px 35px;
+    background: #fff;
+    color: #7147a5;
     transition: 0.3s;
+    font-size: 20px;
 }
 
-/* feture section */
-#feature-section {
-    padding-top: 128px;
-    padding-bottom: 140px;
-    height: 100vh;
+/* FEATURE SECTION */
+
+#feature {
+    padding: 125px 0;
 }
 
-.feature-title {
-    font-weight: 700;
-    font-size: 127px;
+.feature-headding {
+    width: 50%;
+}
+
+.feature-headding h2 {
+
     color: #e1e1e1;
+
+    font-size: 127px;
+    line-height: 132px;
+    font-weight: 700;
     text-transform: uppercase;
-    width: 32%;
 }
 
-.feature-title h2 {
-    padding-top: 60px;
+.do {
+    display: block;
 }
 
 .feature-detail {
-    width: 40%;
+    width: 50%;
+}
+
+.large-icons {
+    padding-right: 45px;
+}
+
+.li-feature {
+    margin-bottom: 50px;
 }
 
 .li-feature h3 {
     font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 35px;
-}
-
-.big-icon {
-    padding-right: 45px;
+    margin-bottom: 35px;
 }
 
 .li-feature p {
-    padding-left: 108px;
-    margin-bottom: 60px;
+    margin-left: 100px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* SERVICIES */
+
+#services {
+    background-image: linear-gradient(to right, rgba(247, 247, 247, 1), rgba(247, 247, 247, 0)), url(../img/service-bg.png);
+    background-size: 818px 694px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    background-color: rgb(247, 247, 247);
+
+
+    padding: 159px 0;
+}
+
+.service {
+    width: 60%;
+
+}
+
+.service h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #503392;
+}
+
+.service p {
+
+    width: 60%;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 55px 0;
+
+}
+
+.righ-arrow {
+    margin-left: 4px;
+}
+
+.btn-chat {
+    padding: 20px;
+    background-color: #503392;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-chat:hover {
+    border: solid 4px #503392;
+    padding: 16px;
+    color: #503392;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.btn-chat img {
+    margin-left: 15px;
 }
