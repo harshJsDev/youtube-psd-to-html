@@ -353,3 +353,55 @@ header {
 .btn-chat img {
     margin-left: 15px;
 }
+
+/* Portforlio section */
+#portfolio {
+    padding: 153px 0;
+}
+
+#portfolio h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#portfolio p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ul-portforlio {
+    margin: 60px 0 50px 0;
+    text-align: center;
+}
+
+.ul-portforlio li {
+    display: inline-block;
+}
+
+.ul-portforlio li a {
+    padding: 20px 30px;
+    border: 3px solid #000000;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.ul-portforlio li a:hover {
+    color: #fff;
+    border: 3px solid #503392;
+    background-color: #503392;
+    transition: 0.3s;
+}
+
+.galary{
+    width: 100%;
+    
+}
+
+.row{
+    width: 100%;
+}
+.col-4-port{
+    width: 25%;
+    float: left;
+    margin-bottom: 15px;
+}
