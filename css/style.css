@@ -358,49 +358,171 @@ header {
 
 /* Portfolio */
 
-#portfolio{
-    padding: 155px 0 ;
+#portfolio {
+    padding: 155px 0;
     text-align: center;
 
 }
-#portfolio h2{
+
+#portfolio h2 {
     font-size: 50px;
     font-weight: 700;
 
 }
-#portfolio p{
+
+#portfolio p {
     margin: 30px 60px;
 }
-.ul-portfolio{
+
+.ul-portfolio {
     margin: 65px 50px;
 }
-.ul-portfolio li{
+
+.ul-portfolio li {
     display: inline-block;
 }
-.ul-portfolio li a{
+
+.ul-portfolio li a {
     border: 3px #000000 solid;
     padding: 20px;
     margin-left: 10px;
     transition: 0.3s;
-    
+
 }
 
-.ul-portfolio li a:hover{
+.ul-portfolio li a:hover {
     border: 3px #4e3391 solid;
     color: #ffffff;
     background-color: #4e3391;
     padding: 20px;
     transition: 0.3s;
 }
-.gallery{
+
+.gallery {
     width: 100%;
     padding-bottom: 105px;
 }
-.row{
+
+.row {
     width: 100%;
 }
-.col-4-port{
+
+.col-4-port {
     width: 25%;
     float: left;
     margin-bottom: 15px;
+}
+
+/* stats */
+#stats {
+    background-image: linear-gradient(rgba(76, 58, 143, 0.7), rgba(76, 58, 143, 0.7)), url("../img/stats-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.sc {
+    padding: 120px 100px;
+}
+
+.col-4-stats {
+    margin-top: 120px;
+    height: 280px;
+    float: left;
+    width: 25%;
+}
+
+.col-4-stats h2 {
+    font-style: 35px;
+    font-weight: 900;
+    margin: 35px 0 20px 0;
+}
+
+/* contact form */
+#contact {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.contact>h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.contact>p {
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.contact h3 {
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+
+form {
+    width: 40%;
+}
+
+.form-input {
+    background-color: #232323;
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-send {
+    background-color: #503392;
+    border: 1px solid white;
+    box-shadow: none;
+    padding: 20px 0;
+    width: 150px;
+    color: #fff;
+    tab-size: 20px;
+    margin: 15px 0;
+    text-align: center;
+    display: block;
+}
+.address{
+    width: 40%;
+    margin-top: 80px;
+}
+
+.span-address,.span-phone{
+    display: block;
+}
+.ul-add li{
+    margin-bottom: 40px;
+}
+.ul-add i{
+    float: left;
+    margin-right: 40px;
+    font-size: 30px;
+}
+.ul-add>p{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#copyright{
+    background-color: #1f1f1f;
+    padding: 40px 0;
+}
+.copy{
+    float: left;
+    color: #555555;
+}
+.social-links{
+    float: right;
+}
+
+.social-links li{
+    display: inline-block;
+}
+.social-links li a{
+    margin-right: 35px;
 }
